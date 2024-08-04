@@ -1,0 +1,135 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 158, 157);
+}
+main{
+    display: flex;
+}
+
+.addBtn{
+    position: relative;
+    align-self: self-start;
+    top: 3%;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    color: rgb(0, 158, 157);
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.addTaskBtn{
+    padding: .5rem 1rem;
+    background-color: white;
+    color: rgb(0, 158, 157);
+    border-radius: 10px;
+    border: none;
+}
+
+.task-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 139, 138);
+    flex-wrap: wrap;
+}
+
+.header-section div {
+    margin: 0;
+    padding-left: 5%;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100px;
+}
+
+
+.main-wrapper {
+    height: 93.7vh;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.task-wrapper {
+    min-width: 350px;
+    max-width: 351px;
+    height: 95%;
+    margin: 0 25px;
+    padding: 0 1%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: rgb(220, 220, 220);
+}
+
+.task-category {
+    font-weight: bold;
+}
+
+.task-item {
+    /* width: 100%; */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+}
+
+.task-item p {
+    margin-top: 0;
+}
+
+.task-icons,
+.task-icons ul,
+.task-icons ul li {
+    display: flex;
+    flex-direction: row;
+    order: 1000;
+}
+
+.task-icons {
+    justify-content: space-between;
+}
+
+.task-icons ul {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.task-icons ul li {
+    align-items: center;
+}
+
+.task-icons ul li img {
+    width: 20px;
+}
+
+.task-icons ul li span {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+}
+.empty {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+}
